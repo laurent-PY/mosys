@@ -8,8 +8,11 @@
     text-align: center;
 }
 
-/* @media screen and (min-width: 800px) {
-    img {
-        width: 50%;
-    }
+.divCenter {
+    text-align: center;
+}
+
+/* 
+.endNav {
+    margin-left: 60%;
 } */

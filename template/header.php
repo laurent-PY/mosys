@@ -15,28 +15,31 @@
 
     <title>Home</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light sticky-top gradiant">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">logo Mosys</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top gradiant">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container d-flex justify-content-end">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">About</a>
-            </li><li class="nav-item">
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
-            </li><li class="nav-item">
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-        </div>
+      </div>
     </div>
-    </nav>    
-</body>
+  </div>
+</nav>
 
+<!-- navbar-dark bg-dark sticky-top gradiant -->
