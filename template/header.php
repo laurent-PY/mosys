@@ -8,38 +8,35 @@
 
 
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- bootstrap -->
-
-
-    <title>Home</title>
+    <title>MOSYS</title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top gradiant">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="container d-flex justify-content-end">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top gradiant">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="about.php">about</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
       </div>
     </div>
-  </div>
-</nav>
-
+  </nav>
+</body>
 <!-- navbar-dark bg-dark sticky-top gradiant -->
