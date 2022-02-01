@@ -1,63 +1,192 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
-.gradiant {
-    background: rgb(2, 0, 36);
+.cc-navbar{
+    background-color:rgb(2, 0, 36);
     background: linear-gradient(270deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 132, 169, 100) 70%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 1px 1px 3px white ;
+}
+
+.cc-footer{
+    background-color:rgb(2, 0, 36);
+    background: linear-gradient(270deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 132, 169, 100) 70%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+.redressed{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-}
+    
+    
+} 
 
-.imgCenter {
-    text-align: center;
-}
-
-.divCenter {
-    text-align: center;
-}
-
-.containerDivAbout {
-    position: relative;
-
-}
-
-.backgroundAbout {
-    background-image: url("images/about1.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.centerPhotoAbout {
-    text-align: center;
-    position: absolute;
+.info{
     color: white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 20%;
-}
-
-.about1 {
-    background-image: url('images/about1-1.jpg');
-    height: 100vh;
-}
-
-ul {
-    list-style-type: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.mb-4 {
-    margin-bottom: 1.5rem !important;
+.cc-navbar .nav-link{
+    
+    font-size: 24px;
+    letter-spacing: .2rem;
+    transition: padding-bottom .4s ease-in-out, border-colo .3s ease;
+    
 }
 
-@media (min-width: 576px) {
-    .mb-sm-0 {
-        margin-bottom: 0 !important;
-    }
+.cc-navbar .nav-link:hover,
+.cc-navbar .nav-link:active,
+.cc-navbar .nav-link:focus
+{
+    /* padding-bottom: 5px; */
+    border-bottom-color:white ;
+    text-decoration: underline;
+    text-decoration-style:solid;
+
+    
 }
+
+.banner-home{
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)),url('../img/home1.jpg') center center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-contact{
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url('../img/contact-2.png') center center no-repeat ;
+    background-size: cover;
+    height: auto;
+}
+
+.banner-about{
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url('../img/about1gr.jpg') center center no-repeat ;
+    background-size: cover;
+    height: auto;
+}
+
+.banner-services{
+    background: linear-gradient(rgba(7, 7, 7, 0.1),rgba(255, 255, 255, 0.1)), url('../img/services1.jpg') center center no-repeat ;
+    background-size: cover;
+    height: auto;
+}
+
+.logoF{
+    align-items: center ;
+    text-align: center;
+    
+}
+
+.cc-diplome{
+    background: linear-gradient(rgba(255, 255, 255, 0.274),rgba(255, 255, 255, 0.1)), url('../img/about2.jpg') center center no-repeat ;
+    background-size: cover;
+    height: auto;
+}
+
+.cc-cv{
+    background: linear-gradient(rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0.486)), url('../img/about3.jpg') center center no-repeat ;
+    background-size: cover;
+    height: auto;
+}
+
+.cc-services{
+    background: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.24)), url('../img/servicesEnCours.jpg') center center no-repeat ;
+    background-size: cover;
+    height: 85vh;
+
+}
+
+
+.gill{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .7rem;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.gillP{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.gillPcv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    font-size: 25px;
+    color: white;
+}
+
+.gillCond{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    font-size: 20px;
+    color: white;
+}
+
+.gillInfo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+
+}
+
+.p-contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(64, 64, 182);
+    font-size: 28px;
+}
+
+.infoContact,
+.infoAbout{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    color: white;
+    list-style-type: none !important;
+}
+
+.imgH1 {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/home-b2-1-1-s.jpg') center center no-repeat;
+    background-size: cover;
+    height:350px;
+    width:625px;
+}
+
+.imgH2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/home-b2-1-2-s.jpg') center center no-repeat;
+    background-size: cover;
+    height:350px;
+    width:625px;
+}
+
+.imgH3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/home-b2-1-3-s.jpg') center center no-repeat;
+    background-size: cover;
+    height:350px;
+    width:625px;
+   
+
+}
+
+.imgH4 {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/home-b2-1-4-s.jpg') center center no-repeat;
+    background-size: cover;
+    height:350px;
+    width:625px;
+}
+
+.imgH3-1{
+    background: linear-gradient(rgba(20, 14, 14, 0.1), rgba(34, 27, 27, 0.1)), url('../img/home3-1.jpg') center center no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.text-muted{
+    color: white !important;
+}
+/* .navbar-toggler{
+    color: white !important;
+} */
