@@ -22,8 +22,8 @@ function sendMail($nomPrenom, $mailUser, $message)
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'SSL0.OVH.NET';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'contact@margouli.fr';                     //SMTP username
-        $mail->Password   = '%Contact!!%';                               //SMTP password
+        $mail->Username   = '';                     //SMTP username
+        $mail->Password   = '';                               //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS
         $mail->CharSet = 'UTF-8';
